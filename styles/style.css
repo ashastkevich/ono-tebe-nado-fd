@@ -1,1 +1,32 @@
 /* место для вашего кода */
+.header_logo {
+  width: 148px;
+}
+
+.cover {
+  background-image: url("../images/cover.jpg");
+  min-height: 757px;
+  width: 100%;
+  height: 100%;
+  /* background: #000;
+  opacity: 0.6; */
+}
+
+.lots {
+  margin: 180px 24px 120px 24px;
+}
+
+.about {
+  margin: 0px 24px 180px 24px;
+}
+
+.about_logo {
+  width: 148px;
+}
+
+.about_elipse {
+  width: 240px;
+  height: 240px;
+  background-color: #000;
+  border-radius: 100%;
+}
