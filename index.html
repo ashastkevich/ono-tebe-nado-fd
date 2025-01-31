@@ -31,21 +31,23 @@
           alt="Оно тебе надо">
       </a>
       <address class="address">
-        <span class="span-phone">+9 999 555 5555</span>
-        <span class="span-email">info@sobaka.ge</span>
-        <span class="span-adress">наб. Принсенграхт 263- 265, Амстердам</span>
+          <a href="tel:+9 999 555 5555">+9 999 555 5555</a> <br>
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
+        наб. Принсенграхт 263- <br>
+        265, Амстердам
       </address>
     </header>
     <main>
       <section class="cover">
+        <div class="overlay"></div>
         <h1 class="cover_title">
           <span class="accent-span">ОНО</span>
           <span class="accent-span text-center">ТЕБЕ</span>
           <span class="accent-span text-right">НАДО</span>
         </h1>
         <div class="description">
-          <p>Аукцион вещей, в которые никто не верил</p>
-          <button>Сделать ставку</button>
+          <p class="description-title">Аукцион вещей, в которые никто не верил</p>
+          <div><button class="description-button">Сделать ставку</button></div>
         </div>
       </section>
       <section class="lots">
@@ -121,9 +123,53 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="address"></address>
-      <nav></nav>
-      <ul></ul>
+      <address class="address">
+        <span class="span-phone">+9 999 555 5555</span>
+        <span class="span-email">info@sobaka.ge</span>
+        <span class="span-adress">наб. Принсенграхт 263- 265, Амстердам</span>
+      </address>
+      <nav>
+        <ul class="footer_menu-list">
+          <li class="footer_menu-item footer_menu-item_active">
+            <a>главная</a>
+          </li>
+          <li class="footer_menu-item">
+            <a href="0#">посмотреть лоты</a>
+          </li>
+          <li class="footer_menu-item">
+            <a href="0#">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="socials">
+        <li>
+          <a href="">
+            <img 
+              src="./images/yt.svg"
+              alt="Youtube"
+              class="socials-logo"
+            >
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img 
+              src="./images/vk.svg"
+              alt="VK"
+              class="socials-logo"
+            >
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img 
+              src="./images/pinterest.svg"
+              alt="Pinterest"
+              class="socials-logo"
+            >
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

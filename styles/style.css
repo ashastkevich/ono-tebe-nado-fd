@@ -1,20 +1,116 @@
 /* место для вашего кода */
+.header {
+  height: 293px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header_menu-list {
+  display: flex;
+  gap: 30px;
+  letter-spacing: normal;
+  list-style: circle;
+}
+
+.header_menu-item_active {
+  list-style: none;
+}
+
 .header_logo {
   width: 148px;
 }
 
+.address {
+  justify-self: end;
+  width: 240px;
+  max-width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
+}
+
 .cover {
+  position: relative;
   background-image: url("../images/cover.jpg");
-  min-height: 757px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  /* background: #000;
-  opacity: 0.6; */
+  background: #000;
+  opacity: 0.6;
+
+}
+
+.cover_title {
+  padding: 165px 50px 106px 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.description {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px 50px 50px;
+}
+
+.description-title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 127%;
+  text-transform: uppercase;
+  color: #fff;
+  word-spacing: 20px;
+}
+
+.description-button {
+  position: relative;
+  /* padding: 0 50px 50px 107px; */
+  justify-content: center;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 256px;
+  height: 51px;
 }
 
 .lots {
   margin: 180px 24px 120px 24px;
 }
+
+
+
 
 .about {
   margin: 0px 24px 180px 24px;
@@ -29,4 +125,16 @@
   height: 240px;
   background-color: #000;
   border-radius: 100%;
+}
+
+.footer_menu-list {
+  list-style: none;
+}
+
+.socials {
+  list-style: none;
+}
+
+.socials-logo {
+  width: 48px;
 }
