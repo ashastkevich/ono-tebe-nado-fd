@@ -96,7 +96,6 @@
 
 .description-button {
   position: relative;
-  /* padding: 0 50px 50px 107px; */
   justify-content: center;
   background-color: transparent;
   font-weight: 500;
@@ -127,6 +126,8 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-bottom: 30px;
+
 }
 
 .lots_card-list-item {
@@ -185,7 +186,6 @@
 
 .lots_look-more-link {
   padding-left: 40px;
-  padding-top: 30px;
   font-weight: 400;
   font-size: 20px;
   color: #000;
@@ -216,12 +216,14 @@
 
 .about_title {
   margin-top: 136px;
+  padding-left: 25px;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
 }
 
 .about_text {
+  padding-left: 25px;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
@@ -240,6 +242,7 @@
 
 .footer .address {
   justify-self: start;
+  padding-left: 50px;
 }
 
 .footer_menu-list {
