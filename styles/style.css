@@ -1,5 +1,5 @@
 .header {
-  padding-top: 93px;
+  padding-top: 90px;
   padding-bottom: 90px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -25,8 +25,9 @@
 }
 
 .header_logo {
+  padding-top: 5px;
   width: 148px;
-  height: 105px;
+  height: 110px;
 }
 
 .address {
@@ -241,7 +242,6 @@
 }
 
 .footer {
-  padding-top: 5px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
