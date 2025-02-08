@@ -243,7 +243,6 @@
 .footer {
   padding-top: 5px;
   display: grid;
-  height: 180px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
