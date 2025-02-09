@@ -148,7 +148,7 @@
   min-height: 596px;
 }
 
-.card_link {
+.card-link {
   height: 100%;
   text-decoration: none;
 }
@@ -266,6 +266,8 @@
 .footer_menu {
   justify-self: center;
   text-align: center;
+  padding-top: 1px;
+  padding-bottom: 115px;
 }
 
 .socials {
